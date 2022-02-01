@@ -1,0 +1,20 @@
+body {
+    height: 3000px;
+}
+
+main .mystylehome img {
+    width: 100%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+main #about img{
+    width: 100%;
+}
+
+main #product .card {
+    box-shadow: 1px 1px 1px 0.5px rgba(0, 0, 0, 0.05);
+}
+
+main #product .card img {
+    width: 100%;
+}
