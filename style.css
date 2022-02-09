@@ -2,19 +2,245 @@ body {
     height: 3000px;
 }
 
-main .mystylehome img {
+/* navbar */
+.navbar {
+    background-color: #333;
+}
+
+/* jumbotron */
+#jumbotron {
+    background-image: url(img/home.jpg);
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: 0 0px;
+}
+
+#jumbotron .display-4 {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 80px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+#jumbotron .display-4 span {
+    color: #FFFF99;
+    font-weight: bold;
+}
+
+#jumbotron .display-6 {
+    text-align: center;
+    font-size: 11px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    color: #fff;
+    font-weight: bolder;
+}
+
+/* home */
+#home img {
     width: 100%;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    border-radius: 20px 20px;
 }
 
-main #about img{
-    width: 100%;
+#home .homedes h1, main .homedes p {
+    justify-content: center;
 }
 
+#home .row {
+    padding-top: 20px;
+}
+#home .homedes h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#home .homedes p {
+    text-align: center;
+    font-size: small;
+}
+
+/* about */
+#about {
+    margin-top: 80px;
+    background-color: #333;
+}
+
+#about .container {
+    padding: 50px;
+}
+
+#about img {
+    width: 65px;
+    margin-right: 10px;
+}
+
+#about p {
+    color: #fff;
+}
+
+
+/* product */
 main #product .card {
     box-shadow: 1px 1px 1px 0.5px rgba(0, 0, 0, 0.05);
 }
 
 main #product .card img {
     width: 100%;
+}
+
+/* media query */
+
+@media (min-width: 576px) {
+    /* jumbotron */
+    #jumbotron {
+        height: 400px;
+        width: 100%;
+        background-size: cover;
+        background-position: 0 0;
+    }
+
+    #jumbotron .display-4 {
+        font-size: 32px;
+    }
+    
+    #jumbotron .display-6 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) {
+    #jumbotron {
+        height: 500px;
+        width: 100%;
+        background-size: cover;
+        background-position: 0 0;
+    }
+
+    #jumbotron .display-4 {
+        font-size: 40px;
+    }
+    
+    #jumbotron .display-6 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    /* navbar */
+    .navbar {
+        background-color: transparent;
+    }
+
+    .navbar-brand, .nav-link {
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 1.5);
+    }
+
+    /* jumbotron */
+    #jumbotron {
+        height: 600px;
+        width: 100%;
+        background-size: cover;
+        background-position: 0 0;
+        margin-top: -60px;
+    }
+
+    #jumbotron .display-4 {
+        color: #fff;
+        text-align: left;
+        font-weight: bold;
+        padding-top: 250px;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 1.5);
+    }
+    
+    #jumbotron .display-4 span {
+        color: #FFFF99;
+        font-weight: bold;
+    }
+    
+    #jumbotron .display-6 {
+        font-size: 25px;
+        text-align: left;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 1.5);
+        color: #fff;
+        font-weight: bolder;
+    }
+
+    /* home */
+    #home .row {
+        margin-top: 50px;
+    }
+
+    #home .homedes h1 {
+        text-align: left;
+        font-size: 28px;
+    }
+
+    #home .homedes p {
+        text-align: left;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* jumbotron */
+    #jumbotron {
+        height: 750px;
+        width: 100%;
+        background-size: cover;
+        background-position: 0 0;
+        margin-top: -60px;
+    }
+
+    #jumbotron .display-4 {
+        padding-top: 300px;
+    }
+}
+
+@media (min-width: 1400px) {
+    /* jumbotron */
+    #jumbotron {
+        height: 850px;
+        width: 100%;
+        background-size: cover;
+        background-position: 0 0;
+        margin-top: -60px;
+    }
+}
+
+@media (min-width: 1800px) {
+    /* jumbotron */
+    #jumbotron {
+        height: 850px;
+        width: 100%;
+        background-size: cover;
+        background-position: 0 -300px;
+        margin-top: -60px;
+    }
+
+    #jumbotron .display-4 {
+        padding-top: 350px;
+    }
+
+    /* home */
+    #home .homedes {
+        padding-left: 20px;
+    }
+    
+    #home .homeimg {
+        padding-right: 20px;
+    }
+
+    #home .homedes h1 {
+        text-align: left;
+        font-size: 40px;
+    }
+
+    #home .homedes p {
+        text-align: left;
+        font-size: 20px;
+    }
 }

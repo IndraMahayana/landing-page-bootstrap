@@ -17,71 +17,61 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24"
-                        class="d-inline-block align-text-top">
-                    PROPERTY
-                </a>
+                <a class="navbar-brand" href="#">PROPERTY</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                        <a class="nav-link" href="#about">About</a>
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+                        <a class="nav-link active" href="#about">ABOUT</a>
+                        <a class="nav-link active" href="#">PRICING</a>
                     </div>
                 </div>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-primary" type="submit">Search</button>
-                </form>
             </div>
         </nav>
     </header>
 
+    <div id="jumbotron" class="container-fluid">
+        <div class="container">
+            <h1 class="display-4">Lets Find New <span>PROPERTY</span> For You</h1>
+            <p class="display-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Magnam, laboriosam.</p>
+        </div>
+    </div>
+
     <main>
-        <div id="home" class="container px-5 mystylehome">
-            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2 align-items-center">
-                <div
-                    class="col justify-content-start text-center text-sm-center text-md center text-lg-start text-xl-start">
-                    <h1>Let's find new home for you</h1>
+        <div id="home" class="container px-5">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2">
+                <div class="col align-self-center homedes">
+                    <h1>attractive home provider for vacation</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur asperiores atque, dicta
                         numquam cumque obcaecati accusantium a facilis voluptatem eveniet.</p>
                 </div>
-                <div
-                    class="col pt-5 pb-5 align-items-center">
+                <div class="col homeimg">
                     <img src="img/house.jpg" alt="house">
                 </div>
             </div>
         </div>
 
-        <div id="about" class="container px-5 pt-5">
-            <div class="row">
-                <div class="col align-self-center order-2">
-                    <div class="row border-top border-start border-bottom p-2">
-                        <h3>Strategic location</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, totam.</p>
+        <div id="about" class="container-fluid">
+            <div class="container">
+                <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 justify-content-center">
+                    <div class="col d-flex align-items-center justify-content-center">
+                        <img src="img/v.png" alt="">
+                        <p>progressss<br>progressss description</p>
                     </div>
-                    <div class="row border-end border-bottom p-2 text-end">
-                        <h3>Strategic location</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, totam.</p>
+                    <div class="col d-flex align-items-center justify-content-center">
+                        <img src="img/v.png" alt="">
+                        <h4>progressss</h4>
                     </div>
-                    <div class="row border-start border-bottom p-2">
-                        <h3>Strategic location</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, totam.</p>
+                    <div class="col d-flex align-items-center justify-content-center">
+                        <img src="img/v.png" alt="">
+                        <h4>progressss</h4>
                     </div>
-                    <div class="row border-end border-bottom p-2 text-end">
-                        <h3>Strategic location</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, totam.</p>
-                    </div>
-                </div>
-                <div class="col pt-5 pb-5 order-1">
-                    <img src="img/house.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -160,6 +150,7 @@
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
 
