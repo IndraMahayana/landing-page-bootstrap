@@ -47,7 +47,7 @@
 
     <main>
         <div id="home" class="container px-5">
-            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2">
+            <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-2">
                 <div class="col align-self-center homedes">
                     <h1>attractive home provider for vacation</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur asperiores atque, dicta
@@ -61,23 +61,23 @@
 
         <div id="about" class="container-fluid">
             <div class="container">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 justify-content-center">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 justify-content-center">
                     <div class="col">
                         <div class="d-flex align-items-center justify-content-center">
-                            <img src="img/v.png" alt="">
-                            <p>progressss<br><span>progressss description</span></p>
+                            <img src="img/chat.png" alt="">
+                            <p>Easy and Safe<br><span>Find your many real property type.</span></p>
                         </div>
                     </div>
                     <div class="col">
                         <div class="d-flex align-items-center justify-content-center">
-                            <img src="img/v.png" alt="">
-                            <p>progressss<br><span>progressss description</span></p>
+                            <img src="img/chat.png" alt="">
+                            <p>Invesment Property<br><span>On the resident platform</span></p>
                         </div>
                     </div>
                     <div class="col">
                         <div class="d-flex align-items-center justify-content-center">
-                            <img src="img/v.png" alt="">
-                            <p>progressss<br><span>progressss description</span></p>
+                            <img src="img/chat.png" alt="">
+                            <p>Licenses and Contracts<br><span>Contrary to populer</span></p>
                         </div>
                     </div>
                 </div>
@@ -89,7 +89,8 @@
                 <h1>Feature Property</h1>
                 <div class="row row-cols-1 row-cols-lg-2">
                     <div class="col prodcolp">
-                        <div class="prodp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, doloribus!</div>
+                        <div class="prodp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, doloribus!
+                        </div>
                     </div>
                     <div class="col text-start text-lg-end">
                         <a href="#" class="btn btn-secondary">View All</a>
@@ -208,30 +209,45 @@
             </div>
         </div>
 
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Launch demo modal
-        </button>
+        <div id="contact" class="container-fluid">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#ContactUs">
+                Contact Us
+            </button>
+        </div>
 
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="ContactUs" tabindex="-1" aria-labelledby="ContactUsLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <h5 class="modal-title" id="ContactUsLabel">Contact us</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        ...
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <div class="mb-3">
+                            <label for="FormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="FormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="FormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
                     </div>
                 </div>
             </div>
         </div>
 
+        <footer>
+            <div class="container">
+                <div class="row row-cols-2">
+                    <div class="col align-self-center">Created by : Indra mahayana</div>
+                    <div class="col justify-content-center">
+                        <p><a href="#jumbotron"><img src="img/up-arrow.png" alt="up"></a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
