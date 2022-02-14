@@ -56,12 +56,12 @@ body {
 }
 #home .homedes h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #home .homedes p {
     text-align: center;
-    font-size: small;
+    font-size: 12px;
 }
 
 /* about */
@@ -100,6 +100,7 @@ body {
 }
 
 #product a.btn1 {
+    font-size: 12px;
     background-color: #0d6efd;
 }
 
@@ -108,11 +109,11 @@ body {
 }
 
 #product h1 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #product div.prodp {
-    font-size: 15px;
+    font-size: 13px;
 }
 
 #product div.prodcolp {
@@ -229,7 +230,6 @@ footer .footlast h4 {
 
     #about img {
         width: 45px;
-        margin-right: 15px;
     }
     
     #about p {
@@ -257,6 +257,19 @@ footer .footlast h4 {
     #contact .btn {
         width: 170px;
         height: 43px;
+    }
+
+    /* product */
+    #product a.btn1 {
+        font-size: 14px;
+    }
+    
+    #product h1 {
+        font-size: 23px;
+    }
+    
+    #product div.prodp {
+        font-size: 14px;
     }
 }
 
@@ -293,6 +306,19 @@ footer .footlast h4 {
     #contact .btn {
         width: 200px;
         height: 45px;
+    }
+
+    /* product */
+    #product a.btn1 {
+        font-size: 15px;
+    }
+    
+    #product h1 {
+        font-size: 25px;
+    }
+    
+    #product div.prodp {
+        font-size: 15px;
     }
 }
 
@@ -426,6 +452,15 @@ footer .footlast h4 {
     #contact .btn {
         width: 280px;
     }
+
+    /* product */
+    #product h1 {
+        font-size: 27px;
+    }
+    
+    #product div.prodp {
+        font-size: 16px;
+    }
 }
 
 @media (min-width: 1800px) {
@@ -469,5 +504,14 @@ footer .footlast h4 {
     /* contact */
     #contact .btn {
         width: 300px;
+    }
+
+    /* product */
+    #product h1 {
+        font-size: 30px;
+    }
+    
+    #product div.prodp {
+        font-size: 17px;
     }
 }
