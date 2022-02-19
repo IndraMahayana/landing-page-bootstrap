@@ -66,34 +66,46 @@ body {
 
 /* about */
 #about {
-    margin-top: 80px;
     background-color: #333;
+    padding: 30px;
+    margin-top: 30px;
 }
 
-#about .container {
-    padding: 50px;
-}
-
-#about .col {
-    margin-top: 10px;
+#about .wrap {
+    display: flex;
+    align-items: center;
 }
 
 #about img {
-    width: 55px;
-    margin-right: 10px;
+    width: 35px;
 }
 
 #about p {
-    padding-top: 10px;
-    color: #fff;
     font-size: 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: fit-content;
 }
 
 #about span {
     font-size: 12px;
 }
 
+#about .col {
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 20px 20px;
+}
+
 /* product */
+#product {
+    margin-bottom: 70px;
+}
+
+#product .card {
+    margin: 10px;
+}
+
 #product a.btn {
     margin-bottom: 20px;
     padding-bottom: 10px;
@@ -146,7 +158,6 @@ body {
     background-size: cover;
     width: 100%;
     height: 600px;
-    margin-top: 80px;
     position: relative;
     z-index: 2;
 }
@@ -164,7 +175,6 @@ body {
     width: 150px;
     height: 40px;
 }
-
 
 #contact .btn:hover {
     color: #fff;
@@ -222,22 +232,24 @@ footer .footlast h4 {
     #jumbotron .display-6 {
         font-size: 18px;
     }
-
-    /* about */
-    #about .col {
-        padding-bottom: 20px;
+    
+    /* contact */
+    #contact .btn {
+        width: 170px;
+        height: 43px;
     }
 
+    /* about */
     #about img {
-        width: 45px;
+        width: 38px;
     }
     
     #about p {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     #about span {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     /* product */
@@ -253,13 +265,6 @@ footer .footlast h4 {
         font-size: 11px;
     }
 
-    /* contact */
-    #contact .btn {
-        width: 170px;
-        height: 43px;
-    }
-
-    /* product */
     #product a.btn1 {
         font-size: 14px;
     }
@@ -289,6 +294,12 @@ footer .footlast h4 {
         font-size: 20px;
     }
 
+    /* contact */
+    #contact .btn {
+        width: 200px;
+        height: 45px;
+    }
+
     /* product */
     #product .card-body h5 {
         font-size: 22px;
@@ -302,13 +313,6 @@ footer .footlast h4 {
         font-size: 13px;
     }
 
-    /* contact */
-    #contact .btn {
-        width: 200px;
-        height: 45px;
-    }
-
-    /* product */
     #product a.btn1 {
         font-size: 15px;
     }
@@ -379,19 +383,16 @@ footer .footlast h4 {
     }
 
     /* about */
+    #about img {
+        width: 43px;
+    }
+    
     #about p {
-        color: #000;
         font-size: 17px;
     }
 
     #about span {
-        color: #000;
-        font-size: 14px;
-    }
-
-    #about .d-flex {
-        background-color: rgb(255, 255, 255);
-        border-radius: 20px 20px;
+        font-size: 13px;
     }
 
     /* contact */
@@ -417,15 +418,6 @@ footer .footlast h4 {
         padding-top: 300px;
     }
 
-    /* about */
-    #about p {
-        font-size: 18px;
-    }
-
-    #about span {
-        font-size: 15px;
-    }
-
     /* contact */
     #contact .btn {
         width: 250px;
@@ -443,11 +435,6 @@ footer .footlast h4 {
         margin-top: -60px;
     }
 
-    /* about */
-    #about p {
-        font-size: 19px;
-    }
-
     /* contact */
     #contact .btn {
         width: 280px;
@@ -460,6 +447,19 @@ footer .footlast h4 {
     
     #product div.prodp {
         font-size: 16px;
+    }
+
+    /* about */
+    #about img {
+        width: 46px;
+    }
+    
+    #about p {
+        font-size: 18px;
+    }
+
+    #about span {
+        font-size: 14px;
     }
 }
 
@@ -497,8 +497,16 @@ footer .footlast h4 {
     }
 
     /* about */
+    #about img {
+        width: 50px;
+    }
+    
     #about p {
         font-size: 20px;
+    }
+
+    #about span {
+        font-size: 15px;
     }
 
     /* contact */
